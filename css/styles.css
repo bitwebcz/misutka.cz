@@ -1,11 +1,11 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
- 
+
 /* ==========================================================================
 HTML5 display definitions
 ========================================================================== */
- 
+
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
- 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -22,7 +22,7 @@ Base
 *    `em` units.
 * 2. Prevents iOS text size adjust after orientation change, without disabling
 *    user zoom. */
- 
+
 html { font-size: 100%; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 -ms-text-size-adjust: 100%; /* 2 */ }
@@ -36,7 +36,7 @@ html, body { width: auto !important; overflow-x: hidden !important; }
 Links
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
- 
+
 a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
@@ -45,7 +45,7 @@ Typography
 ========================================================================== */
 /* * Addresses font sizes and margins set differently in IE 6/7.
 * Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
- 
+
 h1 { font-size: 2em; margin: 0.67em 0; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; }
@@ -80,7 +80,7 @@ sub { bottom: -0.25em; }
 Lists
 ========================================================================== */
 /* * Addresses margins set differently in IE 6/7. */
- 
+
 dl, menu, ol, ul { margin: 1em 0; }
 dd { margin: 0 0 0 40px; }
 /* * Addresses paddings set differently in IE 6/7. */
@@ -92,7 +92,7 @@ Embedded content
 ========================================================================== */
 /* * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
 * 2. Improves image quality when scaled in IE 7. */
- 
+
 img { border: 0; /* 1 */
 -ms-interpolation-mode: bicubic; /* 2 */ }
 /* * Corrects overflow displayed oddly in IE 9. */
@@ -101,13 +101,13 @@ svg:not(:root) { overflow: hidden; }
 Figures
 ========================================================================== */
 /* * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11. */
- 
+
 figure { margin: 0; }
 /* ==========================================================================
 Forms
 ========================================================================== */
 /* * Corrects margin displayed oddly in IE 6/7. */
- 
+
 form { margin: 0; }
 /* * Define consistent border, margin, and padding. */
 fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
@@ -167,19 +167,19 @@ vertical-align: top; /* 2 */ }
 Tables
 ========================================================================== */
 /* * Remove most spacing between table cells. */
- 
+
 table { border-collapse: collapse; border-spacing: 0; }
 /* * Remove most spacing between table cells. */
 /* ==========================================================================
 Headings
 ========================================================================== */
-h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/cog-icon.png) no-repeat top center; padding-top: 75px; }
-h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/frame-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
-h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/mech-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
-h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/front-icon.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
+h1.chain { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/icons/2.png) no-repeat top center; padding-top: 75px; }
+h2.frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/icons/1.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
+h2.mech { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/icons/3.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
+h2.front-frame { text-align: center; text-transform: uppercase; color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; background: url(../img/icons/6.png) no-repeat top center; padding-top: 65px; margin-top: 70px; }
 h2.twitter-post-username { color: #353738; letter-spacing: 2px; font-size: 18px; font-weight: 600; margin-top: 30px; }
 h2.twitter-post-username span { color: #848789; font-weight: 300; }
-h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../img/main-logo.png) no-repeat top center; padding-top: 120px; margin: 70px 0 40px 0; font-style: italic; }
+h2.logo-header { text-align: center; color: #848789; letter-spacing: 1px; font-size: 24px; font-weight: 300; background: url(../img/logo/logo8.png) no-repeat top center; padding-top: 160px; margin: 70px 0 10px 0; font-style: italic; }
 /* ==========================================================================
 User Styles
 ========================================================================== */
@@ -189,15 +189,17 @@ User Styles
 ========================================================================== */
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
-.clearfix { *zoom: 1; }
+.clearfix { *zoom: 1; margin-bottom: 116px; }
 .pullcontainer a#pull { display: none; }
-a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; }
-a:hover { color: #64c29e; text-decoration: none; }
+.greenish { color: #69946D; }
+a { color: #282f35; -webkit-transition: all .25s ease; -moz-transition: all .25s ease; -ms-transition: all .25s ease; -o-transition: all .25s ease; transition: all .25s ease; outline: none;}
+a:hover { color: #69946D; text-decoration: none; outline: none; }
+a:focus { color: #69946D; outline: none; }
 p { text-align: center; font-size: 14px; color: #848789; font-weight: 300; word-spacing: 2px; line-height: 1.8em; margin-top: 25px; }
 p.text-intro { font-size: 18px; }
-.hero { background: url(../img/hero-bg.jpg) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 685px; }
+.hero { margin-top: -116px; background: url(../img/hero/sew5.jpg) no-repeat top center #f4f5fc; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 100vh; }
 nav { height: 85px; margin-top: 30px; position: relative; }
-.logo-holder { background: url(../img/main-logo.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
+.logo-holder { background: url(../img/logo/logo-main3.png) no-repeat center center; width: 94px; height: 85px; position: absolute; top: 0; left: 327px; }
 .responsive-logo { display: hidden; }
 header { background-color: #f4f5fc; }
 header ul { padding-top: 35px; }
@@ -205,22 +207,22 @@ header ul li { list-style: none; float: left; text-transform: uppercase; letter-
 header ul li a { display: block; margin: 0 30px; color: #4d4959; }
 .r_spacer { margin-right: 180px; }
 .intro { padding: 115px 0; background-color: #fbfbfb; }
-.section-1 { background: url(../img/left-box-1.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-2 { background: url(../img/left-box-2.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-3 { background: url(../img/red-frame.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
-.section-4 { background: url(../img/red-bike.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
+.section-1 { background: url(../img/gal/7.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-2 { background: url(../img/gal/29.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-3 { background: url(../img/gal/3.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; position: relative; }
+.section-4 { background: url(../img/gal/19.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; height: 600px; }
 .section-text { position: relative; height: 600px; }
 .nopadding { padding: 0 !important; margin: 0 !important; }
 .thin-sep { height: 1px; background-color: #d7d7d7; width: 50px; margin: 8% auto 0 auto; }
 .small-featured-img { height: 200px; width: 100%; position: absolute; bottom: 0; }
-.seat-red { background: url(../img/seat-red.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.seat-black { background: url(../img/seat-black.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
-.frame-red { background: url(../img/chrome-wheels.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.seat-red { background: url(../img/gal/45.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.seat-black { background: url(../img/gal/13.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
+.frame-red { background: url(../img/gal/24.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; }
 .section-text p { padding: 0 60px; text-align: justify; }
 .arrow { background: url(../img/arrow.png) no-repeat center center; width: 21px; height: 10px; margin: -1px auto 0 auto; }
-.logo-1 { width: 113px; height: 118px; background: url(../img/bicycle-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
-.logo-2 { width: 177px; height: 152px; background: url(../img/vintage-logo.png); position: absolute; left: 50%; top: 50%; margin-top: -70px; margin-left: -90px; }
-.logo-3 { width: 208px; height: 67px; background: url(../img/bicycles-sml-logo.png); position: absolute; left: 50%; top: 50%; margin-left: -110px; margin-top: -10px; }
+.logo-1 { width: 200px; height: 92px; background: url(../img/logo/logo-icon.png); position: absolute; left: 50%; top: 50%; margin-left: -56px; margin-top: -59px; }
+.logo-2 { width: 200px; height: 92px; background: url(../img/logo/logo-icon.png); position: absolute; left: 50%; top: 50%; margin-top: -70px; margin-left: -90px; }
+.logo-3 { width: 200px; height: 92px; background: url(../img/logo/logo-icon.png); position: absolute; left: 50%; top: 50%; margin-left: -110px; margin-top: -10px; }
 .flex-container { background-color: #f7f7f7; padding: 125px 0 35px; text-align: center; }
 .flex-twitter-icon { width: 32px; height: 27px; background: url(../img/twitter-bird.png) no-repeat center center; margin: 0 auto; }
 p.twitter-post { color: #848789; font-size: 24px; font-style: italic; font-weight: 300; margin-bottom: 100px; }
@@ -244,17 +246,20 @@ a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index:
 a.close-overlay.hidden { display: none }
 #effect .overlay { position: absolute; display: block; top: 0; bottom: 0; left: 0; right: 0; background: rgba(100, 194, 158, 0.8); opacity: 0; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 #effect .overlay a.expand { position: absolute; left: 0; right: 0; top: 0; content: ""; margin: 0 auto; border-radius: 30px; text-align: center; color: #fff; line-height: 50px; font-weight: 600; font-size: 14px; opacity: 0; text-transform: uppercase; letter-spacing: 3px; background: url(../img/white-bike-icon.png) no-repeat top center; padding-top: 25px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -ms-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; display: block; }
+#shop { display: none; }
+#pre-shop { display: none; }
 #effect .img { overflow: hidden }
 #effect .img.hover .overlay { opacity: 1 }
 #effect .img.hover .overlay a.expand { top: 50%; margin-top: -30px; opacity: 1; }
 .discover { background-color: #282f35; padding: 70px 0; text-align: center; }
 .shop-btn { border: solid 1px #bbb; padding: 15px 50px; color: #fff; text-transform: uppercase; letter-spacing: 3px; font-weight: 400; }
-.shop-btn:hover, .shop-btn:focus { border: solid 1px #64c29e; }
+.shop-btn:hover, .shop-btn:focus { border: solid 1px #69946D; }
 .sign-up { text-align: center; }
 .signup-input { border: solid 1px #d3d7d9; padding: 25px; width: 65%; color: #929292; font-style: italic; letter-spacing: 1px; }
-.submit-btn { background-color: #64c29e; color: #fff; border: solid 1px #64c29e; font-weight: 300; padding: 25px 50px; }
+.submit-btn { background-color: #69946D; color: #fff; border: solid 1px #69946D; font-weight: 300; padding: 25px 50px; }
 section.sign_up { padding: 40px 0 110px 0; }
-footer { background-color: #f7f7f7; padding: 100px 0; }
+footer { position: relative; padding: 100px 0 0 0; }
+footer::before { content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-image: url(../img/hero/sew6.jpg); background-size: cover; background-position: 50% 25%; opacity: 0.7; }
 footer p { font-size: 13px; margin: 0; }
 .footer-leftcol p { text-align: left; }
 .footer-rightcol p { text-align: right; font-style: italic; margin-top: 20px; }
